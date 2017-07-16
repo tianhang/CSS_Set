@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+}
+
+code {
+    margin: 20%;
+    /*padding: 10%;*/
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+
+.code {
+    margin: 1% 0;
+    text-align: center;
+    /*padding: 10%;*/
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    /*height: 100px;*/
+}
+
+.bg-grey {
+    background-color: #f1f1f1;
+}
+
+.bg-green {
+    background-color: greenyellow;
+}
+
+.parent1 {}
+
+.div1 {
+    margin: 0 auto;
+    width: 30%;
+    text-align: center;
+}

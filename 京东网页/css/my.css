@@ -1,0 +1,142 @@
+ * {
+     padding: 0;
+     margin: 0
+ }
+ 
+ fieldset,
+ img,
+ input,
+ button {
+     border: none;
+     padding: 0;
+     margin: 0;
+     outline-style: none;
+ }
+ 
+ .search {
+     width: 538px;
+     height: 35px;
+     float: left;
+     margin-top: 25px;
+ }
+ 
+ input {
+     padding-top: 0;
+     padding-bottom: 0;
+     font-family: "SimSun", "宋体";
+ }
+ 
+ .search input {
+     width: 450px;
+     height: 32px;
+     border: 2px solid #B61D1D;
+     padding-left: 4px;
+     color: #666;
+     font: 14px/32px "microsoft yahei";
+     float: left;
+ }
+ 
+ .search button {
+     width: 80px;
+     height: 36px;
+     background-color: #B61D1D;
+     float: left;
+     font: 16px/36px "microsoft yahei";
+     color: #fff;
+     cursor: pointer;
+     /* 鼠标变成小手*/
+ }
+ 
+ .logo {
+     width: 360px;
+     height: 75px;
+     background-color: pink;
+     float: left;
+     padding-top: 25px;
+     background: url(../images/logo.png) no-repeat 0 25px;
+     position: relative;
+ }
+ 
+ .jd-a {
+     display: block;
+     width: 270px;
+     height: 60px;
+     text-indent: -2000em;
+ }
+ 
+ .db11 {
+     position: absolute;
+     width: 180px;
+     height: 80px;
+     background-color: pink;
+     top: 10px;
+     left: 168px;
+ }
+ 
+ .car {
+     float: right;
+ }
+ /*
+.jd-a {
+    display: block;
+    width: 270px;
+    height: 60px;
+    text-indent: -2000em;
+}*/
+ 
+ .hotwords {
+     float: left;
+ }
+ 
+ .w {
+     /*版心 提取 */
+     width: 1210px;
+     margin: 0 auto;
+ }
+ 
+ .clearfix:before,
+ .clearfix:after {
+     content: "";
+     display: table;
+ }
+ 
+ .clearfix:after {
+     clear: both;
+ }
+ 
+ .clearfix {
+     *zoom: 1;
+     /*IE/7/6*/
+ }
+ /*头部分end*/
+ 
+ .slogen {
+     height: 54px;
+     padding: 20px 0;
+     background-color: #f5f5f5;
+     position: relative;
+     margin-bottom: 15px;
+ }
+ 
+ .item {
+     width: 302px;
+     position: absolute;
+     top: 20px;
+     left: 50%;
+ }
+ 
+ .slogen1 {
+     margin-left: -608px;
+ }
+ 
+ .slogen2 {
+     margin-left: -304px;
+ }
+ 
+ .slogen3 {
+     margin-left: 2px;
+ }
+ 
+ .slogen4 {
+     margin-left: 304px;
+ }

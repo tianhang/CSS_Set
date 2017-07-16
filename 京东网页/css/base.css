@@ -1,18 +1,42 @@
 @charset "UTF-8";
+
 /*css 初始化 */
-html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
     margin: 0;
     padding: 0;
 }
 
-fieldset, img, input, button {
+fieldset,
+img,
+input,
+button {
     border: none;
     padding: 0;
     margin: 0;
     outline-style: none;
 }
 
-ul, ol {
+ul,
+ol {
     list-style: none;
 }
 
@@ -22,25 +46,33 @@ input {
     font-family: "SimSun", "宋体";
 }
 
-select, input {
+select,
+input {
     vertical-align: middle;
 }
 
-select, input, textarea {
+select,
+input,
+textarea {
     font-size: 12px;
     margin: 0;
 }
+
 textarea {
     resize: none;
 }
 
+
 /*防止拖动*/
+
 img {
     border: 0;
     vertical-align: middle;
 }
 
+
 /*  去掉图片低测默认的3像素空白缝隙*/
+
 table {
     border-collapse: collapse;
 }
@@ -51,7 +83,8 @@ body {
     background: #fff
 }
 
-.clearfix:before, .clearfix:after {
+.clearfix:before,
+.clearfix:after {
     content: "";
     display: table;
 }
@@ -61,7 +94,8 @@ body {
 }
 
 .clearfix {
-    *zoom: 1; /*IE/7/6*/
+    *zoom: 1;
+    /*IE/7/6*/
 }
 
 a {
@@ -73,13 +107,20 @@ a:hover {
     color: #C81623;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     text-decoration: none;
     font-weight: normal;
     font-size: 100%;
 }
 
-s, i, em {
+s,
+i,
+em {
     font-style: normal;
     text-decoration: none;
 }
@@ -88,7 +129,9 @@ s, i, em {
     color: #C81623 !important;
 }
 
+
 /*公共类*/
+
 .w {
     /*版心 提取 */
     width: 1210px;
@@ -119,7 +162,9 @@ s, i, em {
     display: none
 }
 
+
 /*头部导航开始*/
+
 .shortcut {
     height: 30px;
     line-height: 30px;
@@ -162,9 +207,11 @@ s, i, em {
     margin-top: 9px;
     padding: 0;
 }
+
 .shortcut .tel-jd {
     padding: 0 20px 0 25px;
 }
+
 .tel {
     position: absolute;
     width: 15px;
@@ -173,11 +220,17 @@ s, i, em {
     left: 5px;
     top: 5px;
 }
+
+
 /*顶部end*/
+
+
 /*topbanner start*/
+
 .topbanner {
     background-color: #8A25C6;
 }
+
 .close-banner {
     position: absolute;
     right: 0;
@@ -186,13 +239,18 @@ s, i, em {
     height: 19px;
     background: url(../images/close.png) no-repeat;
 }
+
 .close-banner:hover {
     background-position: bottom;
 }
+
 .tp {
     position: relative;
 }
+
+
 /*topbanner end*/
+
 .logo {
     width: 360px;
     height: 75px;
@@ -243,7 +301,8 @@ s, i, em {
     float: left;
     font: 16px/36px "microsoft yahei";
     color: #fff;
-    cursor: pointer; /* 鼠标变成小手*/
+    cursor: pointer;
+    /* 鼠标变成小手*/
 }
 
 .car {
@@ -271,6 +330,7 @@ s, i, em {
     top: 10px;
     right: 10px;
 }
+
 .icon3 {
     position: absolute;
     width: 16px;
@@ -294,6 +354,7 @@ s, i, em {
     margin-right: 6px;
 }
 
+
 /*nav 部分*/
 
 .jd-nav {
@@ -301,6 +362,7 @@ s, i, em {
     height: 44px;
     border-bottom: 2px solid #B1191A;
 }
+
 .dropdown {
     width: 210px;
     height: 44px;
@@ -309,9 +371,11 @@ s, i, em {
     z-index: 10;
     overflow: visible;
 }
+
 .dropdown .dt {
     height: 44px;
 }
+
 .dropdown .dt a {
     display: block;
     height: 44px;
@@ -320,11 +384,13 @@ s, i, em {
     color: #fff;
     padding-left: 10px;
 }
+
 .dropdown .dd {
     height: 465px;
     background-color: #C81623;
     margin-top: 2px;
 }
+
 .dropdown .items {
     height: 31px;
     line-height: 31px;
@@ -332,52 +398,60 @@ s, i, em {
     padding-left: 10px;
     color: #fff;
     font-size: 15px;
-    font-family:"微软雅黑";
+    font-family: "微软雅黑";
 }
+
 .dropdown .items h3 {
     float: left;
 }
+
 .dropdown .items span {
     float: right;
     margin-right: 15px;
     font-family: "宋体";
     font-weight: 600;
-
 }
+
 .navitems {
     width: 680px;
     height: 44px;
     float: left;
 }
+
 .navitems li {
     float: left;
 }
+
 .navitems li.new {
     background: url(../images/new.jpg) no-repeat right top;
 }
+
 .navitems li a {
     display: block;
     color: #333;
-    font:400 15px/44px "微软雅黑";
-    padding:0 20px;
+    font: 400 15px/44px "微软雅黑";
+    padding: 0 20px;
 }
+
 .navitems li a:hover {
     color: #B1191A;
 }
+
 .bike {
     width: 140px;
     height: 44px;
-    background:url(../images/bike.jpg) no-repeat;
+    background: url(../images/bike.jpg) no-repeat;
     float: right;
 }
+
 .bike a {
     display: block;
     height: 44px;
 }
 
 
-
 /*头部分end*/
+
 .slogen {
     height: 54px;
     padding: 20px 0;
@@ -408,10 +482,12 @@ s, i, em {
 .slogen4 {
     margin-left: 304px;
 }
+
 .shopping dl {
     width: 198px;
     float: left;
 }
+
 .shopping dt,
 .coverage .dt {
     font-size: 16px;
@@ -419,21 +495,26 @@ s, i, em {
     font-family: "微软雅黑";
     padding-top: 10px;
 }
+
 .shopping dd {
     height: 20px;
 }
+
 .coverage {
     float: right;
     width: 210px;
     height: 165px;
     background: url(../images/china.png) no-repeat left bottom;
 }
+
 .coverage .dd {
     margin-top: 10px;
 }
+
 .coverage p {
     line-height: 18px;
 }
+
 .looklook {
     text-align: right;
     margin-top: 5px;
@@ -445,39 +526,19 @@ s, i, em {
     margin-top: 30px;
     text-align: center;
 }
+
 .links {
     height: 25px;
 }
+
 .links a {
     padding: 0 6px;
 }
+
 .copyright {
     line-height: 18px;
     margin-bottom: 10px;
 }
+
+
 /*底部 start*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
